@@ -1,0 +1,90 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1778249022020,
+      "tag": "0000_careless_sleepwalker",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1778940323795,
+      "tag": "0001_military_mimic",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1749600000000,
+      "tag": "0002_bookings_country",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1749600001000,
+      "tag": "0003_condition_location",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1749600002000,
+      "tag": "0004_achi_defect_library",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1750500000000,
+      "tag": "0005_condition_subsection",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1751000000000,
+      "tag": "0006_inspection_metadata",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1751000001000,
+      "tag": "0007_rename_supabase_value",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1751000002000,
+      "tag": "0008_severity_vocabulary_check",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1751000003000,
+      "tag": "0009_revision_requested",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1753500000000,
+      "tag": "0010_booking_duplicate_guard",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1753600000000,
+      "tag": "0011_admin_actions_audit",
+      "breakpoints": true
+    }
+  ]
+}

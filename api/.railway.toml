@@ -1,0 +1,16 @@
+# Railpack configuration for apps/api
+# Railway will auto-detect this is a Node.js/pnpm project
+
+[build]
+# Railpack automatically detects:
+# - Node.js version from .nvmrc or package.json
+# - Package manager from lock files (pnpm-lock.yaml)
+# - Build command from package.json scripts
+
+# Install at root for monorepo support
+root = "/"
+
+[deploy]
+startCommand = "node dist/server.js"
+healthcheckPath = "/api/v1/health"
+restartPolicyType = "on_failure"

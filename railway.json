@@ -1,0 +1,10 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "buildCommand": "pnpm --filter @inspectafrica/api build"
+  },
+  "deploy": {
+    "startCommand": "node apps/api/dist/server.js",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
